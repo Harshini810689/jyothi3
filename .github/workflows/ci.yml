@@ -17,7 +17,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y gcc
 
       - name: Compile C Program
-        run: gcc ra.c -o ra
+        run: gcc c5.c -o c5
 
       - name: Run Program
-        run: ./ra
+        run: ./c5
